@@ -1,0 +1,11 @@
+[package]
+name = "obj_reader"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "obj_reader"
+path = "src/main.rs"
+
+[dependencies]
+macroquad = "0.3.25"
